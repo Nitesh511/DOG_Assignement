@@ -1,0 +1,453 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1570021974424-60e83dfee639?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGdvbGRlbiUyMHJldHJpZXZlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 1550px;
+  overflow-x: hidden;
+}
+.nav-bar{
+  position: sticky;
+  top: 0;
+  
+}
+.nav-bar img {
+  position: absolute;
+  margin-left: 25px;
+  color: #fff;
+  cursor: pointer;
+  width: 33px;
+  top: 5px;
+}
+.nav-bar h1 {
+  position: relative;
+  left: 4.5%;
+  color: #fff;
+}
+.nav-bar h1:hover {
+  color: rgb(255, 94, 0);
+}
+
+.nav-bar ul li {
+  position: relative;
+  display: inline-block;
+  padding: 18px;
+  top: -60px;
+  left: 45%;
+}
+.nav-bar li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.nav-bar li select {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 18px;
+}
+.nav-bar li select option:hover {
+  color: aqua;
+}
+.nav-bar li option {
+  height: 20vh;
+}
+.nav-bar input {
+  position: relative;
+  top: -65px;
+  left: 44%;
+  height: 5vh;
+  width: 200px;
+  border-radius: 20px;
+}
+.nav-bar i {
+  position: relative;
+  top: -66px;
+  left: 42%;
+  color: red;
+}
+.images img {
+  position: relative;
+  top: -108px;
+  left: 94.5%;
+  width: 40px;
+}
+.nav-bar li a.active {
+  text-decoration: underline;
+}
+.nav-bar li a:hover {
+  text-decoration-line: underline;
+}
+.part1 h1 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 52px;
+  position: absolute;
+  top: 250px;
+  left: 10%;
+}
+.part1 h2 {
+  color: #fff;
+  position: absolute;
+  font-size: 52px;
+  top: 300px;
+  left: 15%;
+}
+.part1 p {
+  color: #fff;
+  position: relative;
+  font-size: 23px;
+  top: 230px;
+  left: 9.6%;
+}
+.button1 button {
+  position: relative;
+  top: 240px;
+  left: 9.6%;
+  height: 6vh;
+  width: 180px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.button1 button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  transition: 0.7s ease-out;
+}
+.button2 button {
+  position: relative;
+  top: 195px;
+  left: 21.7%;
+  height: 6vh;
+  width: 110px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.button2 button:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.7s ease-out;
+}
+.image1 img {
+  position: relative;
+  top: 730px;
+  left: 12%;
+  width: 520px;
+  height: 390px;
+}
+.image1 h3 {
+  position: relative;
+  top: 324px;
+  left: 49%;
+  font-weight: bold;
+  font-size: 30px;
+}
+.image1 p {
+  position: relative;
+  top: 310px;
+  left: 49%;
+  line-height: 1.7;
+  font-size: 19px;
+  opacity: 50%;
+}
+.image2 {
+  position: relative;
+}
+.image2 img {
+  position: relative;
+  width: 40px;
+  top: 325px;
+  left: 49%;
+  height: 40px;
+}
+.image2 h3 {
+  position: relative;
+  top: 308px;
+  font-weight: normal;
+  font-size: 22px;
+}
+.image2 p {
+  position: relative;
+  top: 290px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.image3 {
+  position: relative;
+}
+.image3 img {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  top: 100px;
+  left: 70%;
+}
+.image3 h3 {
+  position: relative;
+  top: 80px;
+  left: 70%;
+  font-weight: 100;
+  font-size: 22px;
+}
+.image3 p {
+  position: relative;
+  top: 60px;
+  left: 70%;
+}
+.container1 {
+  position: relative;
+  width: 100%;
+  height: 98vh;
+  border: none;
+  top: 150px;
+  background-color: rgb(250, 250, 255);
+  overflow: hidden;
+}
+.container1 h3 {
+  position: relative;
+  top: 70px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+.container1 p {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 50%;
+}
+.container2 {
+  position: relative;
+  width: 380px;
+  height: 60vh;
+  border: 2px solid #fff;
+  top: 70px;
+  left: 10%;
+}
+.container2 img {
+  position: relative;
+  width: 100%;
+  top: 0px;
+}
+.container2 h3 {
+  position: relative;
+  top: -8px;
+  font-size: 18px;
+  font-weight: 600;
+  right: 20%;
+  cursor: pointer;
+}
+.container2 h3:hover {
+  color: rgb(216, 93, 11);
+  transition: 0.6s ease;
+}
+.container2:hover {
+  box-shadow: 10px 10px 50px rgb(199, 199, 212);
+  transition: 0.9s ease;
+}
+.container2 p {
+  position: relative;
+  top: -15px;
+  left: 3%;
+  display: inline;
+  margin: 0px;
+}
+.container2 h4 {
+  position: relative;
+  font-size: 15px;
+  left: 4%;
+  color: rgb(216, 93, 11);
+  cursor: pointer;
+}
+.container3 {
+  position: relative;
+  width: 380px;
+  height: 60vh;
+  border: 2px solid #fff;
+  top: -390px;
+  left: 37%;
+}
+.container3 img {
+  position: relative;
+  width: 100%;
+  top: 0px;
+}
+.container3 h3 {
+  position: relative;
+  top: -8px;
+  font-size: 18px;
+  font-weight: 600;
+  right: 18%;
+  cursor: pointer;
+}
+.container3 h3:hover {
+  color: rgb(216, 93, 11);
+  transition: 0.6s ease;
+}
+.container3:hover {
+  box-shadow: 10px 10px 50px rgb(199, 199, 212);
+  transition: 0.9s ease;
+}
+.container3 p {
+  position: relative;
+  top: -15px;
+  left: 3%;
+  display: inline;
+  margin: 0px;
+}
+.container3 h4 {
+  position: relative;
+  font-size: 15px;
+  left: 4%;
+  color: rgb(216, 93, 11);
+  cursor: pointer;
+}
+.container4 {
+  position: relative;
+  width: 380px;
+  height: 60vh;
+  border: 2px solid #fff;
+  top: -848px;
+  left: 64%;
+}
+.container4 img {
+  position: relative;
+  width: 100%;
+  top: 0px;
+}
+.container4 h3 {
+  position: relative;
+  top: -8px;
+  font-size: 18px;
+  font-weight: 600;
+  right: 18%;
+  cursor: pointer;
+}
+.container4 h3:hover {
+  color: rgb(216, 93, 11);
+  transition: 0.6s ease;
+}
+.container4:hover {
+  box-shadow: 10px 10px 50px rgb(199, 199, 212);
+  transition: 0.9s ease;
+}
+.container4 p {
+  position: relative;
+  top: -15px;
+  left: 3%;
+  display: inline;
+  margin: 0px;
+}
+.container4 h4 {
+  position: relative;
+  font-size: 15px;
+  left: 4%;
+  color: rgb(216, 93, 11);
+  cursor: pointer;
+}
+.container5 {
+  position: relative;
+  top: 200px;
+}
+.container5 h3 {
+  position: relative;
+  top: 25px;
+  font-size: 40px;
+  left: 10%;
+  font-weight: 500;
+}
+.container5 p {
+  position: relative;
+  left: 10%;
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 70%;
+}
+.like {
+  position: relative;
+  top: 30px;
+}
+.like img {
+  position: relative;
+  left: 10%;
+  top: -10px;
+}
+.like h3 {
+  position: relative;
+  top: -70px;
+  left: 13.9%;
+  font-size: 28px;
+  font-weight: bold;
+}
+.like p {
+  position: relative;
+  top: -98px;
+  left: 14%;
+}
+.like {
+  position: relative;
+}
+.like2 img {
+  position: relative;
+  left: 28%;
+  top: -160px;
+}
+.like2 h3 {
+  position: relative;
+  top: -220px;
+  left: 32%;
+  font-size: 28px;
+  font-weight: bold;
+}
+.like2 p {
+  position: relative;
+  top: -249px;
+  left: 32%;
+}
+.roundimg {
+  position: relative;
+}
+.roundimg img {
+  position: relative;
+  top: -650px;
+  left: 50%;
+  width: 70px;
+}
+.roundimg p {
+  position: relative;
+  top: -740px;
+  left: 57%;
+}
+.roundimg h4 {
+  position: relative;
+  top: -730px;
+  left: 57%;
+  font-size: 18px;
+}
+
+.roundimg2 img {
+  position: relative;
+  top: -697px;
+  left: 50%;
+  width: 70px;
+
+}
+.roundimg2 p{
+  position: relative;
+  top: -797px;
+  left: 57%;
+
+}
+.roundimg2 h4{
+  position: relative;
+  top: -801px;
+  left: 57%;
+  font-size: 18px;
+
+}
